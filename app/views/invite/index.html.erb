@@ -1,0 +1,21 @@
+<html> 
+
+<h1>Welcome To Group</h1>
+
+<%=form_tag '/' do%>
+<%=label_tag :first_name%>
+<%=text_field_tag :first_name %>
+</br>
+<%=label_tag :last_name %>
+<%=text_field_tag :last_name %>
+<br>
+<%=label_tag :Calendar %>
+<%=text_field_tag :date, params[:date], id:'date' %>
+<%=submit_tag 'submit'%>
+<%end%>
+
+
+
+
+
+</html>
